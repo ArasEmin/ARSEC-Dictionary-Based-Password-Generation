@@ -1,55 +1,52 @@
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/License-MIT-green
-https://img.shields.io/badge/GUI-Tkinter-orange
+# ARSEC - Dictionary Based Password Generation Tool
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![GUI](https://img.shields.io/badge/GUI-Tkinter-orange)](https://docs.python.org/3/library/tkinter.html)
 
 ARSEC is an advanced password generation tool that creates potential password combinations based on dictionary words and various transformation rules. This tool is designed for security professionals to test password strength and for educational purposes only.
 
-Features
-🎯 Keyword-based password generation - Input multiple keywords to generate password variations
+## Features
 
-🔠 Multiple transformation rules:
+- **Keyword-based password generation** - Input multiple keywords to generate password variations
+- **Multiple transformation rules**:
+  - Leet speak transformations (e.g., a→@, e→3)
+  - Number appending (e.g., 123, 2023, etc.)
+  - Special character additions (e.g., !, @, #)
+  - Case variation combinations
+- **Combination modes**:
+  - Individual word processing
+  - Multi-word combinations (optional)
+- **Export capability** - Save generated passwords to a text file
+- **User-friendly GUI** - Built with Tkinter for easy interaction
 
-Leet speak transformations (e.g., a→@, e→3)
+## Screenshot
 
-Number appending (e.g., 123, 2023, etc.)
+![ARSEC Screenshot](screenshot.png) *(Placeholder - add actual screenshot after)*
 
-Special character additions (e.g., !, @, #)
+## Installation
 
-Case variation combinations
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ArasEmin/ARSEC-Dictionary-Based-Password-Generation.git
+   cd ARSEC-Dictionary-Based-Password-Generation
 
-⚡ Combination modes:
+2. Ensure you have Python 3.8+ installed
 
-Individual word processing
-
-Multi-word combinations (optional)
-
-📁 Export capability - Save generated passwords to a text file
-
-🖥️ User-friendly GUI - Built with Tkinter for easy interaction
-
-Installation
-Clone the repository:
+3. Run the application:
 bash
-git clone https://github.com/ArasEmin/ARSEC-Dictionary-Based-Password-Generation.git
-cd ARSEC-Dictionary-Based-Password-Generation
-Ensure you have Python 3.8+ installed
+python main.py
 
-Run the application:
-bash
-python password_generator.py
-Usage
+## Usage
 Enter your keywords separated by commas (e.g., "name,surname,pet")
 Select your desired transformation options
 Choose whether to combine keywords
 Select an output file location
-
 Click "Generate Passwords" button
-
 Wait for the process to complete (progress bar will show status)
-
 Find your generated passwords in the output file
 
-Example Output
+## Example Output
 With input keywords: "ali,kutay,metin" and all options enabled:
 
 text
@@ -78,7 +75,8 @@ metinali
 ALIKUTAY
 alikutay123
 ... (and hundreds more)
-Ethical Considerations
+
+## Ethical Considerations
 ⚠️ Important: This tool is intended for:
 
 Security professionals testing their own systems
@@ -89,5 +87,5 @@ Password strength evaluation
 
 🚫 Do not use this tool for any unauthorized testing or illegal activities. Always obtain proper authorization before testing any systems.
 
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
