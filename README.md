@@ -1,7 +1,6 @@
 # ARSEC - Dictionary Based Password Generation Tool
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-orange)](https://docs.python.org/3/library/tkinter.html)
 
 ARSEC is an advanced password generation tool that creates potential password combinations based on dictionary words and various transformation rules. This tool is designed for security professionals to test password strength and for educational purposes only.
@@ -19,10 +18,6 @@ ARSEC is an advanced password generation tool that creates potential password co
   - Multi-word combinations (optional)
 - **Export capability** - Save generated passwords to a text file
 - **User-friendly GUI** - Built with Tkinter for easy interaction
-
-## Screenshot
-
-![ARSEC Screenshot](screenshot.png) *(Placeholder - add actual screenshot after)*
 
 ## Installation
 
